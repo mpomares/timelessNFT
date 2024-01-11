@@ -11,6 +11,7 @@ import ShowNFT from './components/ShowNFT'
 import Transactions from './components/Transactions'
 import UpdateNFT from './components/UpdateNFT'
 
+
 const App = () => {
   useEffect(async () => {
     await isWallectConnected()
